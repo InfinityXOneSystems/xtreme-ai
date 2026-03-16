@@ -10,7 +10,7 @@
                     "clean":  "npm run lint:fix \u0026\u0026 npm run format:write",
                     "dev":  "next dev",
                     "build":  "next build",
-                    "start":  "node server/webhook-server.js",
+                    "start":  "next start -p ",
                     "lint":  "next lint",
                     "lint:fix":  "next lint --fix",
                     "analyze":  "ANALYZE=true npm run build",
